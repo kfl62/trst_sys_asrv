@@ -1,24 +1,25 @@
 firm:
   public:
-    controller: 'public'
-    views:      'asrv'
-    layout:     'asrv'
+    controller:     'public'
+    views:          'trst'
+    layout:         'layout'
     page:
       title:        'Autoservice Ltd.'
       header:       'Autoservice motto'
-      footer_text:  '&copy; 2005-2012 Autoservice Ltd.'
+      footer_text:  '&copy; 2005-2014 Autoservice Ltd.'
       footer_title: 'Ferenc-Loránt Kiss'
   system:
     page:
       title:        'TrustSys - Autoservice'
       header:       'TrustSys AutoServ'
-      footer_text:  '&copy; 2005-2012 kfl62'
+      footer_text:  '&copy; 2005-2014 kfl62'
       footer_title: 'Ferenc-Loránt Kiss'
 
-  sass_dir:     'system/assets/stylesheets/asrv'
-  css_dir:      'public/stylesheets/asrv'
+  sass_dir:     'system/assets/stylesheets'
+  css_dir:      'public/stylesheets'
+  css_path:     '/stylesheets'
+  css_file:     'asrv.css'
   images_dir:   'public/images/asrv'
-  css_path:     '/stylesheets/asrv'
   images_path:  '/images/asrv'
   i18n_path:    'asrv'
   js_path:      'asrv'
