@@ -1,6 +1,16 @@
 ## v0.3.0
 
-release date: **2013-xx-xx**
+release date: **2014-xx-xx**
+
+
+* **feature v0.2.991**, v0.3.0 preparation
+   - feature date: **2014-09-17**
+   - bump version v0.2.991
+   - update CHANGELOG
+   - views cleanup, and `Htls::PartnerFirm` CRUD
+   - models generic skeletons, update
+   - i18n update
+   - assets js, update
 
 
 * **feature v0.2.990**, v0.3.0 preparation
@@ -9,7 +19,7 @@ release date: **2013-xx-xx**
    - update CHANGELOG
    - lib `version.rb` rename (typo)
    - add `README` skeleton
-   - config: `firm.yml` update
+   - config `firm.yml` update
    - assets css,  use unique style in modules [kfl62/trst_sys_sinatra#12][trst_main#12]
    - views `layout`, use unique layout in `public` controller [kfl62/trst_sys_sinatra#15][trst_main#15]
 
